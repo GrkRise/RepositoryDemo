@@ -8,7 +8,7 @@ import ru.miit.demo.repository.Repository.DigitalBookRepository;
 import ru.miit.demo.repository.Repository.SoftBookRepository;
 import ru.miit.demo.repository.Storage.ArrayStorage;
 
-import java.lang.reflect.Array;
+
 
 public class Main {
 
@@ -32,8 +32,8 @@ public class Main {
         storage.addBook(digitalBook2);
 
         System.out.println(softBookRepository.getBooks("soft"));
-        System.out.println(digitalBookRepository.getBooks("digital"));
-        System.out.println(bookRepository.getBooks());
+//        System.out.println(digitalBookRepository.getBooks("digital"));
+//        System.out.println(bookRepository.getBooks());
 
 
     }

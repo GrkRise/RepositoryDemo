@@ -1,5 +1,6 @@
 package ru.miit.demo.repository.Models;
 
+
 public abstract class Book {
     Long id;
     String title;
